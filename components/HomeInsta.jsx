@@ -8,8 +8,8 @@ import { motion } from 'framer-motion';
 
 const HomeInsta = () => {
   return (
-    <div class="bg-bamboo w-screen bg-cover bg-top bg-fixed">
-    <div class=" ">
+    <div className="bg-bamboo w-screen bg-cover bg-top bg-fixed">
+    <div className=" ">
     <div>
     <motion.div 
       initial={{ opacity: 0 }}
@@ -19,39 +19,39 @@ const HomeInsta = () => {
       } }}
       viewport={{ once: true }}
     >
-    <p class="font-playfair text-center font-bold text-4xl md:text-5xl pt-16 pb-8">Follow Us on Instagram</p>
+    <p className="font-playfair text-center font-bold text-4xl md:text-5xl pt-16 pb-8">Follow Us on Instagram</p>
      </motion.div>
         <a href="https://www.instagram.com/beijingchinesemedicalcenter/">
-        <p class="text-blue-500 hover:underline text-center">@beijingchinesemedicalcenter</p>
+        <p className="text-blue-500 hover:underline text-center">@beijingchinesemedicalcenter</p>
         </a>
     </div>
-        <section class="mx-auto max-w-7xl py-8 ">
-    <ul role="list" class="grid grid-cols-4" >
-    <li class="relative">
-    <div class="block overflow-hidden w-full group aspect-w-10 aspect-h-10 ">
+        <section className="mx-auto max-w-7xl py-8 ">
+    <ul role="list" className="grid grid-cols-4" >
+    <li className="relative">
+    <div className="block overflow-hidden w-full group aspect-w-10 aspect-h-10 ">
         <a href="https://www.instagram.com/beijingchinesemedicalcenter/">
-    <Image src={instagram2} width="300" height="300" class=" object-cover pointer-events-none group-hover:opacity-75"/>
+    <Image src={instagram2} width="300" height="300" className=" object-cover pointer-events-none group-hover:opacity-75"/>
     </a>
     </div>
     </li>
-    <li class="relative">
-    <div class="block overflow-hidden w-full group aspect-w-10 aspect-h-10">
+    <li className="relative">
+    <div className="block overflow-hidden w-full group aspect-w-10 aspect-h-10">
     <a href="https://www.instagram.com/beijingchinesemedicalcenter/">
-        <Image src={instagram1} width="300" height="300" class="object-cover pointer-events-none group-hover:opacity-75"/>
+        <Image src={instagram1} width="300" height="300" className="object-cover pointer-events-none group-hover:opacity-75"/>
     </a>
     </div>
     </li>
-    <li class="relative">
-    <div class="block overflow-hidden w-full group aspect-w-10 aspect-h-7">
+    <li className="relative">
+    <div className="block overflow-hidden w-full group aspect-w-10 aspect-h-7">
     <a href="https://www.instagram.com/beijingchinesemedicalcenter/">
-        <Image src={instagram5} width="300" height="300" class="object-cover pointer-events-none group-hover:opacity-75"/>
+        <Image src={instagram5} width="300" height="300" className="object-cover pointer-events-none group-hover:opacity-75"/>
     </a>
     </div>
     </li>
-    <li class="relative">
-    <div class="block overflow-hidden w-full group aspect-w-10 aspect-h-7">
+    <li className="relative">
+    <div className="block overflow-hidden w-full group aspect-w-10 aspect-h-7">
     <a href="https://www.instagram.com/beijingchinesemedicalcenter/">
-        <Image src={instagram4} width="300" height="300" class="object-cover pointer-events-none group-hover:opacity-75"/>
+        <Image src={instagram4} width="300" height="300" className="object-cover pointer-events-none group-hover:opacity-75"/>
     </a>
     </div>
     </li>

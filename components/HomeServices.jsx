@@ -12,8 +12,8 @@ import { motion } from 'framer-motion';
 
 const HomeServices = () => {
   return (
-    <div class="bg-white w-screen bg-cover bg-fixed p-6 md:px-20">
-    <div class="bg-white max-w-5xl mx-auto">
+    <div className="bg-white w-screen bg-cover bg-fixed p-6 md:px-20">
+    <div className="bg-white max-w-5xl mx-auto">
     <motion.div 
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1,
@@ -22,10 +22,10 @@ const HomeServices = () => {
       } }}
       viewport={{ once: true }}
       >
-    <p class="font-playfair text-center font-bold text-4xl sm:text-5xl pt-4 sm:pt-16">Natural Healing Services</p>
-    <p class="text-slate-600 text-center font-bold text-2xl md:text-3xl p-2">Safe. Gentle. Effective.</p>
+    <p className="font-playfair text-center font-bold text-4xl sm:text-5xl pt-4 sm:pt-16">Natural Healing Services</p>
+    <p className="text-slate-600 text-center font-bold text-2xl md:text-3xl p-2">Safe. Gentle. Effective.</p>
     </motion.div>
-    <p class="bg-white text-lg font-light leading-relaxed sm:mt-6  text-slate-800 text-center p-4 md:px-16">
+    <p className="bg-white text-lg font-light leading-relaxed sm:mt-6  text-slate-800 text-center p-4 md:px-16">
         Traditional Chinese Medicine has been practiced for over 5000 years. 
         Increase your health, wellness, longevity, and vitality with acupuncture, herbs, chiropractic, or 
         massage. TCM releases blockages to restore the natural flow of the meridians or energy channels within 
@@ -52,42 +52,42 @@ const HomeServices = () => {
               } }}
               viewport={{ once: true }}
               >
-    <div class=" grid grid-cols-2 md:grid-cols-3 gap-4 m-4">
-    <div class="bg-white ">
+    <div className=" grid grid-cols-2 md:grid-cols-3 gap-4 m-4">
+    <div className="bg-white ">
     <a href="/services">
-    <Image class=" shadow-md " src={acupuncturehome} alt="acupuncturehome"/>
-    <p class="font-playfair text-center font-bold text-md sm:text-2xl p-4 ">Acupuncture</p>
+    <Image className=" shadow-md " src={acupuncturehome} alt="acupuncturehome"/>
+    <p className="font-playfair text-center font-bold text-md sm:text-2xl p-4 ">Acupuncture</p>
     </a> 
     </div>
-    <div class="bg-white">
+    <div className="bg-white">
     <a href="/services">
-    <Image class=" shadow-md " src={mortarpestle} alt="mortarpestle"/>
-    <p class="font-playfair text-center font-bold text-md sm:text-2xl p-4">Herbology</p>
+    <Image className=" shadow-md " src={mortarpestle} alt="mortarpestle"/>
+    <p className="font-playfair text-center font-bold text-md sm:text-2xl p-4">Herbology</p>
     </a>
     </div>
-    <div class="bg-white">
+    <div className="bg-white">
     <a href="/services">
-    <Image class=" shadow-md " src={chiropractorhome1} alt="chiropractorhome"/>
+    <Image className=" shadow-md " src={chiropractorhome1} alt="chiropractorhome"/>
 
-    <p class="font-playfair text-center font-bold text-md sm:text-2xl p-4">Chiropractic</p>
+    <p className="font-playfair text-center font-bold text-md sm:text-2xl p-4">Chiropractic</p>
     </a>
     </div>
-    <div class="bg-white">
+    <div className="bg-white">
     <a href="/services">
-    <Image class=" shadow-md " src={acumassagehome} alt="acumassage" title="acumassage"/>
-    <div class="font-playfair text-center font-bold text-md sm:text-2xl p-4">AcuMassage</div>
+    <Image className=" shadow-md " src={acumassagehome} alt="acumassage" title="acumassage"/>
+    <div className="font-playfair text-center font-bold text-md sm:text-2xl p-4">AcuMassage</div>
     </a>
     </div>
-    <div class="bg-white">
+    <div className="bg-white">
     <a href="/classes">
-    <Image class=" shadow-md " src={qigongservice} alt="qigongclass"/>
-    <p class="font-playfair text-center font-bold text-md sm:text-2xl p-4">Qi Gong Classes</p>
+    <Image className=" shadow-md " src={qigongservice} alt="qigongclass"/>
+    <p className="font-playfair text-center font-bold text-md sm:text-2xl p-4">Qi Gong Classes</p>
     </a>
     </div>
-    <div class="bg-white">
+    <div className="bg-white">
     <a href="/classes">
-    <Image class=" shadow-md " src={fengshui1} alt="fengshui"/>
-    <p class="font-playfair text-center font-bold text-md sm:text-2xl p-4">Taoist Feng Shui</p>
+    <Image className=" shadow-md " src={fengshui1} alt="fengshui"/>
+    <p className="font-playfair text-center font-bold text-md sm:text-2xl p-4">Taoist Feng Shui</p>
     </a>
     </div>
     </div>

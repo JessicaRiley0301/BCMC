@@ -10,7 +10,7 @@ import { motion } from 'framer-motion';
 
 const HomeStore = () => {
   return (
-    <div class="bg-white w-screen bg-cover bg-fixed">
+    <div className="bg-white w-screen bg-cover bg-fixed">
     <motion.div 
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1,
@@ -19,12 +19,12 @@ const HomeStore = () => {
       } }}
       viewport={{ once: true }}
     >
-    <p class="font-playfair text-center font-bold text-4xl sm:text-5xl pt-16">
+    <p className="font-playfair text-center font-bold text-4xl sm:text-5xl pt-16">
     Shop Our Store
     </p>
     </motion.div>
-    <p class=" text-gray-600 text-center font-bold text-2xl md:text-2xl p-2">Published Books. Herbs.</p>
-    <p class="sm:mx-24 text-lg font-light leading-relaxed mt-6 mb-4 text-gray-800 text-center px-16">
+    <p className=" text-gray-600 text-center font-bold text-2xl md:text-2xl p-2">Published Books. Herbs.</p>
+    <p className="sm:mx-24 text-lg font-light leading-relaxed mt-6 mb-4 text-gray-800 text-center px-16">
         Each best-selling publication is an authentic source of ancient Chinese knowledge from a variety of the most important topics of Taoism.
         As the 17th generation Master of White Cloud Monastery's Dragon Gate Sect, he dives deep into 
         secrets never before shared with the public or the world until now. Explore our Shop to
@@ -40,42 +40,42 @@ const HomeStore = () => {
         </a>
         </p>
 
-        {/* <div class="grid grid-flow-col auto-cols-auto gap-4 p-4"> */}
-        <div class="grid grid-cols-2 sm:grid-cols-6 gap-8 p-6 md:p-12">
+        {/* <div className="grid grid-flow-col auto-cols-auto gap-4 p-4"> */}
+        <div className="grid grid-cols-2 sm:grid-cols-6 gap-8 p-6 md:p-12">
 
-        <div class="place-self-center">
+        <div className="place-self-center">
             <a href="/store">
-            <Image alt="gallery" class=""
+            <Image alt="gallery" className=""
                 src={qigongbook}/>
             </a>
         </div>
-        <div class="place-self-center">
+        <div className="place-self-center">
         <a href="/store">
-            <Image alt="gallery" class=""
+            <Image alt="gallery" className=""
                 src={lightingeyedragon}/>
                 </a>
         </div>
-        <div class="place-self-center">
+        <div className="place-self-center">
         <a href="/store">
-            <Image alt="gallery" class=""
+            <Image alt="gallery" className=""
                 src={immortalsword}/>
                 </a>
         </div>
-        <div class="place-self-center">
+        <div className="place-self-center">
         <a href="/store">
-            <Image alt="gallery" class=""
+            <Image alt="gallery" className=""
                 src={souloftaiji}/>
                 </a>
         </div>
-        <div class="place-self-center">
+        <div className="place-self-center">
         <a href="/store">
-            <Image alt="gallery" class=""
+            <Image alt="gallery" className=""
                 src={qigongjourney}/>
                 </a>
         </div>
-        <div class="place-self-center flex">
+        <div className="place-self-center flex">
                 <a href="/store">
-            <Image alt="gallery" class=""
+            <Image alt="gallery" className=""
                 src={dogmother}/>
                 </a>
         </div>

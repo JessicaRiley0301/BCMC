@@ -6,8 +6,8 @@ import { motion } from 'framer-motion';
 
 const Class = () => {
   return (
-    <div class="bg-bamboo w-screen  bg-cover bg-top bg-fixed">
-      <div class="w-full md:w-6/12 ml-auto mr-auto p-8">
+    <div className="bg-bamboo w-screen  bg-cover bg-top bg-fixed">
+      <div className="w-full md:w-6/12 ml-auto mr-auto p-8">
       <motion.div 
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1,
@@ -16,7 +16,7 @@ const Class = () => {
       } }}
       viewport={{ once: true }}
       >
-        <Image alt="flyer" class="max-w-full rounded-lg shadow-lg" src={flyer}/>
+        <Image alt="flyer" className="max-w-full rounded-lg shadow-lg" src={flyer}/>
         </motion.div>
       </div>
     </div>

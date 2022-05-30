@@ -50,29 +50,29 @@ const Weather = () => {
 
   return (
       <div>
-          <div class="flex flex-col bg-gradient-to-r from-cyan-300 to-indigo-300  rounded shadow-lg p-4 md:mr-20 mb-2">
-						<div class="font-bold text-xl text-center">{data.cityname}, {data.country}</div>
-						<div class=" text-6xl self-center inline-flex items-center justify-center rounded-lg text-indigo-400">
+          <div className="flex flex-col bg-gradient-to-r from-cyan-300 to-indigo-300  rounded shadow-lg p-4 md:mr-20 mb-2">
+						<div className="font-bold text-xl text-center">{data.cityname}, {data.country}</div>
+						<div className=" text-6xl self-center inline-flex items-center justify-center rounded-lg text-indigo-400">
                         <img classname="" src={"http://openweathermap.org/img/wn/" + data.icon + "@2x.png"} alt="weather icon"/>
 						</div>
-						<div class="flex flex-row items-center justify-center">
-							<div class="font-medium text-white text-5xl">{data.temperature}°F</div>
-							<div class="flex flex-col items-center ml-6">
+						<div className="flex flex-row items-center justify-center">
+							<div className="font-medium text-white text-5xl">{data.temperature}°F</div>
+							<div className="flex flex-col items-center ml-6">
 								<div>{data.description}</div>
 							</div>
 						</div>
-						<div class="flex flex-row justify-between mt-6">
-							<div class="flex flex-col items-center">
-								<div class="font-medium text-sm">Wind</div>
-								<div class="text-sm text-gray-500">{data.windspeed}mph</div>
+						<div className="flex flex-row justify-between mt-6">
+							<div className="flex flex-col items-center">
+								<div className="font-medium text-sm">Wind</div>
+								<div className="text-sm text-gray-500">{data.windspeed}mph</div>
 							</div>
-							<div class="flex flex-col items-center">
-								<div class="font-medium text-sm">Humidity</div>
-								<div class="text-sm text-gray-500">{data.humidity}%</div>
+							<div className="flex flex-col items-center">
+								<div className="font-medium text-sm">Humidity</div>
+								<div className="text-sm text-gray-500">{data.humidity}%</div>
 							</div>
-							<div class="flex flex-col items-center">
-								<div class="font-medium text-sm">Pressure</div>
-								<div class="text-sm text-gray-500">{data.pressure}hPa</div>
+							<div className="flex flex-col items-center">
+								<div className="font-medium text-sm">Pressure</div>
+								<div className="text-sm text-gray-500">{data.pressure}hPa</div>
 							</div>
 						</div>
 					</div>

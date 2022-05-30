@@ -6,8 +6,8 @@ import { motion } from 'framer-motion';
 
 const AboutUsTeam = () => {
   return (
-    <div class="bg-bamboo w-screen h-full bg-cover bg-top bg-fixed">
-       <div class="text-center">
+    <div className="bg-bamboo w-screen h-full bg-cover bg-top bg-fixed">
+       <div className="text-center">
        <motion.div 
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1,
@@ -16,20 +16,20 @@ const AboutUsTeam = () => {
       } }}
       viewport={{ once: true }}
       >
-            <h1 class="font-playfair font-bold text-5xl font-heading p-24">
+            <h1 className="font-playfair font-bold text-5xl font-heading p-24">
             Our Team
             </h1>
             </motion.div>
 
         </div>
-            <section class="bg-white bg-opacity-70 relative p-6 md:p-16 bg-blueGray-50">
-                <div class="items-center flex flex-wrap">
-                    <div class="w-full md:w-4/12 ml-auto mr-auto px-8">
-                        <Image alt="Dr. Wu" class="max-w-full rounded-lg shadow-lg" src={drwuacu}/>
+            <section className="bg-white bg-opacity-70 relative p-6 md:p-16 bg-blueGray-50">
+                <div className="items-center flex flex-wrap">
+                    <div className="w-full md:w-4/12 ml-auto mr-auto px-8">
+                        <Image alt="Dr. Wu" className="max-w-full rounded-lg shadow-lg" src={drwuacu}/>
                     </div>
                     
-                        <div class="w-full md:w-7/12 ml-auto mr-auto px-8 py-4">
-                        <div class="md:pr-12">
+                        <div className="w-full md:w-7/12 ml-auto mr-auto px-8 py-4">
+                        <div className="md:pr-12">
                         <motion.div 
                             initial={{ opacity: 0 }}
                             whileInView={{ opacity: 1,
@@ -38,11 +38,11 @@ const AboutUsTeam = () => {
                             } }}
                             viewport={{ once: true }}
                             >
-                        <h3 class="font-playfair text-3xl font-semibold">Dr. Baolin Wu</h3>
-                        <p class="font-playfair text-base text-1xl text-gray-400 font-normal">OMD., L.Ac</p>
-                        <p class="mt-4 text-md leading-relaxed text-blueGray-500">
+                        <h3 className="font-playfair text-3xl font-semibold">Dr. Baolin Wu</h3>
+                        <p className="font-playfair text-base text-1xl text-gray-400 font-normal">OMD., L.Ac</p>
+                        <p className="mt-4 text-md leading-relaxed text-blueGray-500">
                         </p>
-                        <ul class="list-disc text-blueGray-500 mt-4 text-md">
+                        <ul className="list-disc text-blueGray-500 mt-4 text-md">
                             <li>Seventh Generation Family Lineage Practitioner of Traditional Chinese Medicine/Acupuncture</li>
                             <li>Guang An Men Hospital of Beijing China (1972-1985)</li>
                             <li>Traditional Chinese Medicine / Acupuncture Doctor</li>
@@ -57,13 +57,13 @@ const AboutUsTeam = () => {
                 </div>
         </section> 
 
-        <section class="bg-white bg-opacity-70 relative bg-blueGray-50 p-6 mt-16">
-            <div class="items-center flex flex-wrap">
-                <div class="w-full md:w-4/12 ml-auto mr-auto px-8">
-                    <Image alt="eric" class="max-w-full rounded-lg shadow-lg" src={ericwu}/>
+        <section className="bg-white bg-opacity-70 relative bg-blueGray-50 p-6 mt-16">
+            <div className="items-center flex flex-wrap">
+                <div className="w-full md:w-4/12 ml-auto mr-auto px-8">
+                    <Image alt="eric" className="max-w-full rounded-lg shadow-lg" src={ericwu}/>
                 </div>
-            <div class="w-full md:w-7/12 ml-auto mr-auto px-8">
-                <div class="md:pr-12">
+            <div className="w-full md:w-7/12 ml-auto mr-auto px-8">
+                <div className="md:pr-12">
                 <motion.div 
                     initial={{ opacity: 0 }}
                     whileInView={{ opacity: 1,
@@ -72,12 +72,12 @@ const AboutUsTeam = () => {
                     } }}
                     viewport={{ once: true }}
                     >
-                    <h3 class="font-playfair text-3xl font-semibold">Dr. Eric Wu</h3>
-                    <p class="font-playfair text-base text-1xl text-gray-400 font-normal">Chiropractor</p>
-                    <p class="mt-4 text-md leading-relaxed text-blueGray-500">
+                    <h3 className="font-playfair text-3xl font-semibold">Dr. Eric Wu</h3>
+                    <p className="font-playfair text-base text-1xl text-gray-400 font-normal">Chiropractor</p>
+                    <p className="mt-4 text-md leading-relaxed text-blueGray-500">
                         Dr. Eric Wu began his career in health care with Southern California University of Health Sciences. During his time there he earned the “Doctor of Chiropractic Degree”. He then furthered his education in Medicine by attending Shantou University School of Medicine in China and earning his MBBS degree.
                     </p>
-                    <ul class="list-disc">
+                    <ul className="list-disc">
                         <li>University of California, Irvine (Bachelors Degree)</li>
                         <li>Southern University of Health Sciences (Doctor of Chiropractic, DC Degree)</li>
                         <li>Shantou University Medical College (MBBS Degree)</li>
@@ -91,7 +91,7 @@ const AboutUsTeam = () => {
             </div>
         </section>
             
-            <div class="bg-slate-800 bg-opacity-10 md:pt-16">
+            <div className="bg-slate-800 bg-opacity-10 md:pt-16">
              <motion.div 
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1,
@@ -100,13 +100,13 @@ const AboutUsTeam = () => {
                 } }}
                 viewport={{ once: true }}
                 >
-            <h1 class="font-playfair text-center font-bold text-4xl md:text-4xl lg:text-6xl font-heading  p-16">
+            <h1 className="font-playfair text-center font-bold text-4xl md:text-4xl lg:text-6xl font-heading  p-16">
                 Biography
             </h1>
             </motion.div>
             
-            <div class=" m-8 md:mx-28 md:my-8 pb-8"> 
-                <p class="text-md"> 
+            <div className=" m-8 md:mx-28 md:my-8 pb-8"> 
+                <p className="text-md"> 
                     Dr. Baolin Wu is a traditional Chinese Medicine (TCM) doctor, research
                     nuerophysiologist, martial artist and Daoist master from White Cloud Monastery, Bejing,
                     which for almost a thousand years has been one of the most respected centers
@@ -118,7 +118,7 @@ const AboutUsTeam = () => {
                     the principal practice.
                 </p>
                 </div>
-                <div class="m-8 md:mx-28 md:my-8 pb-8"> 
+                <div className="m-8 md:mx-28 md:my-8 pb-8"> 
                 <p>
                     Dr. Wu is an internationally recognized authority on the practice of traditional
                     Chinese medicine and also has a thorough understanding of Western Medicine, as 
@@ -133,7 +133,7 @@ const AboutUsTeam = () => {
                     American TCM Association (ATCMA).
                 </p>
                 </div>
-                <div class="mx-8 mt-8 md:mx-28 pb-16"> 
+                <div className="mx-8 mt-8 md:mx-28 pb-16"> 
                 <p>
                     To understand Dr. Baolin Wu's excellence in his field, one must go beyond
                     academic credentials. He hails from one of the most prominent medical families

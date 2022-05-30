@@ -51,11 +51,11 @@ const WeatherWidget = ({ placeholder }) => {
     <div>
        <div className="bg-blue-500 bg-opacity-80 shadow-lg p-8 pb-12 md:mr-20 mb-16">
        <h3 className="font-playfair text-xl mb-8 font-semibold border-b pb-4">Weather Forecast</h3>
-       <label for="full-name" class="leading-7 text-lg text-gray-200">City:</label>
+       <label className="leading-7 text-lg text-gray-200">City:</label>
         <input type="text" 
         id="full-name" 
         name="full-name" 
-        class="w-full bg-white  border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+        className="w-full bg-white  border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
         value={query}
         onChange={onChange}
         placeholder={placeholder ? placeholder : ""}

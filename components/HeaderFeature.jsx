@@ -15,7 +15,7 @@ import { motion } from 'framer-motion';
 const HeaderFeature = () => {
   return (
     
-    <div class="bg-white w-screen bg-cover bg-top bg-fixed my-8">
+    <div className="bg-white w-screen bg-cover bg-top bg-fixed my-8">
     <motion.div 
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1,
@@ -24,44 +24,44 @@ const HeaderFeature = () => {
       } }}
       viewport={{ once: true }}
       >
-    <div class="bg-white w-screen p-4">
-    <div class="bg-white max-w-md mx-auto">
+    <div className="bg-white w-screen p-4">
+    <div className="bg-white max-w-md mx-auto">
 
 
-    <h1 class="font-playfair text-center text-3xl sm:text-4xl font-extrabold">As Seen In</h1>
+    <h1 className="font-playfair text-center text-3xl sm:text-4xl font-extrabold">As Seen In</h1>
     
     </div>
     </div>
 
-    <div class="bg-white mx-auto max-w-7xl grid grid-cols-3 sm:grid-cols-6 gap-4 p-4 md:px-8">
-    <div class="place-self-center">
+    <div className="bg-white mx-auto max-w-7xl grid grid-cols-3 sm:grid-cols-6 gap-4 p-4 md:px-8">
+    <div className="place-self-center">
     <Link href={'/post/los-angeles-times-article-1996'}>
-    <Image class="" src={latimes} alt="latimes"/>
+    <Image className="" src={latimes} alt="latimes"/>
     </Link>
     </div>
-    <div class="place-self-center">
+    <div className="place-self-center">
     <Link href={'/post/Messenger-Article-2008'}>
-    <Image class="" src={messenger} alt="messenger"/>
+    <Image className="" src={messenger} alt="messenger"/>
     </Link>
     </div>
-    <div class="place-self-center">
+    <div className="place-self-center">
     <Link href={'/post/royal-gazette-article'}>
-    <Image class="" src={royalgazette} alt="royalgazette"/>
+    <Image className="" src={royalgazette} alt="royalgazette"/>
     </Link>
     </div>
-    <div class="place-self-center">
+    <div className="place-self-center">
     <Link href={'/post/cctv-interview-cupping'}>
-    <Image class="" src={cctv} alt="cctv"/>
+    <Image className="" src={cctv} alt="cctv"/>
     </Link>
     </div>
-    <div class="place-self-center">
+    <div className="place-self-center">
     <Link href={'/post/phoenix-tv-interview'}>
-    <Image class="" src={phoenixtv} alt="phoenixtv"/>
+    <Image className="" src={phoenixtv} alt="phoenixtv"/>
     </Link>
     </div>
-    <div class="place-self-center">
+    <div className="place-self-center">
     <Link href={'/post/Qi-Magazine-Part1'}>
-    <Image class="" src={qimag} alt="qimag"/>
+    <Image className="" src={qimag} alt="qimag"/>
     </Link>
     </div>
       

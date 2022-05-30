@@ -3,8 +3,8 @@ import { motion } from 'framer-motion'
 
 const FAQ = () => {
   return (
-    <div class="bg-bamboo w-screen  bg-cover bg-top bg-fixed">
-      <section class="text-gray-700">
+    <div className="bg-bamboo w-screen  bg-cover bg-top bg-fixed">
+      <section className="text-gray-700">
       <motion.div 
               initial={{ opacity: 0, y: 50}}
               whileInView={{ opacity: 1,
@@ -15,11 +15,11 @@ const FAQ = () => {
               } }}
               viewport={{ once: true }}
               >
-        <div class="container px-5 py-24 mx-auto">
-          <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
-            <div class="w-full lg:w-1/2 px-4 py-2">
-              <details class="mb-4">
-                <summary class="font-semibold  bg-slate-300  py-4 px-4">
+        <div className="container px-5 py-24 mx-auto">
+          <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+            <div className="w-full lg:w-1/2 px-4 py-2">
+              <details className="mb-4">
+                <summary className="font-semibold  bg-slate-300  py-4 px-4">
                     What is QiGong?
                 </summary>
 
@@ -31,8 +31,8 @@ const FAQ = () => {
                 Qi Gong is everywhere and you cannot get away from it. When you practice any religion - as you worship, kneel down, join hands in prayer... that is breathing... when you communicate with another being... that is breathing... when a bird sings to you... when you are in love... that is breathing. That is Qi Gong.
                 </span>
               </details>
-              <details class="mb-4">
-                <summary class="font-semibold bg-slate-300  py-4 px-4">
+              <details className="mb-4">
+                <summary className="font-semibold bg-slate-300  py-4 px-4">
                 You teach Qi Gong exercises one can do on one's own, and you also treat patients with Qi Gong, What is the difference?
                 </summary>
 
@@ -40,8 +40,8 @@ const FAQ = () => {
                 I teach practices to bring the Qi through your body's meridians, so that you can cure yourself of your sickness or imbalance. Your own practice can enhance and speed up any medical treatment, but you don't need to practice by yourself in order to receive the benefits of medical Qi Gong. As a Qi Gong doctor, I can help you to heal yourself; I can give you a hand to help your body get rid of sickness.
                 </span>
               </details>
-              <details class="mb-4">
-                <summary class="font-semibold  bg-slate-300  py-4 px-4">
+              <details className="mb-4">
+                <summary className="font-semibold  bg-slate-300  py-4 px-4">
                 Can Qi Gong treatment work in conjunction with western medical care?
                 </summary>
 
@@ -49,8 +49,8 @@ const FAQ = () => {
                 That is already happening. I work with American doctors from the Santa Monica Hospital, among others, and I see a lot of cancer patients who are also receiving Western medical care. I envision a future when Qi Gong will play a major role in Western medicine.
                 </span>
               </details>
-              <details class="mb-4">
-                <summary class="font-semibold  bg-slate-300  py-4 px-4">
+              <details className="mb-4">
+                <summary className="font-semibold  bg-slate-300  py-4 px-4">
                 Does Qi Gong help with more than curing one's physical health?
                 </summary>
 
@@ -58,8 +58,8 @@ const FAQ = () => {
                 Yes. I treat and balance all the Qi in your body, which, besides treating the physical illness, positively balances and affects your emotional, mental and spiritual life, so you blend with the Qi of the Universe and become harmonious with the Universal flow. It is then that you receive unlimited abundance.
                 </span>
               </details>
-              <details class="mb-4">
-                <summary class="font-semibold  bg-slate-300  py-4 px-4">
+              <details className="mb-4">
+                <summary className="font-semibold  bg-slate-300  py-4 px-4">
                 There are more people now in Los Angeles teaching and practicing Qi Gong. What should one be aware of when choosing a Qi Gong teacher or practitioner?
                 </summary>
 
@@ -69,8 +69,8 @@ const FAQ = () => {
                 One should be aware that in this field many practitioners are not authentic and have not studied Qi Gong in any depth. Find out whether the teacher you are considering is licensed, and whether he is a doctor, since only doctors can teach Qi Gong. Have in mind that a Chinese medical doctor trained in Mainland China has a different kind of medical training than that of doctors trained here. These are documented facts that can be checked on.
                 </span>
               </details>
-              <details class="mb-4">
-                <summary class="font-semibold  bg-slate-300  py-4 px-4">
+              <details className="mb-4">
+                <summary className="font-semibold  bg-slate-300  py-4 px-4">
                 Is there a Qi Gong practice that anyone can try at home?
                 </summary>
 
@@ -82,52 +82,52 @@ const FAQ = () => {
               </details>
             </div>
 
-            <div class="w-full lg:w-1/2 px-4 py-2">
-              <details class="mb-4">
-                <summary class="font-semibold  bg-slate-300  py-4 px-4">
+            <div className="w-full lg:w-1/2 px-4 py-2">
+              <details className="mb-4">
+                <summary className="font-semibold  bg-slate-300  py-4 px-4">
                 Can you explain how you do that?
                 </summary>
 
-                <span class="px-4 py-2">
+                <span className="px-4 py-2">
                 Once I determine what is wrong, I remove the bad energy in order to make space for the good energy. Then, depending on what is needed, I collect Qi from nature - from trees, flowers, or the Sun, and then I transmit the good Qi into the patient, from a point in the palm of my hand. Qi Gong treatment is like getting a blood transfusion... but it is easy, effective, and it does not cost as much. It is a completely safe and natural form of treatment, with no side effects whatsoever.
                 </span>
               </details>
-              <details class="mb-4">
-                <summary class="font-semibold  bg-slate-300  py-4 px-4">
+              <details className="mb-4">
+                <summary className="font-semibold  bg-slate-300  py-4 px-4">
                 Can Qi Gong heal illnesses like cancer, diabetes, alzheimer, and AIDS?
                 </summary>
 
-                <span class="px-4 py-2">
+                <span className="px-4 py-2">
                 It can help everything. It helps all the systems of your body. It strengthens the nervous system and the immune system. The immune system knows what it needs to do to fight off diseases. It just needs the power to do it. Qi Gong gives it back its power. I have treated diabetics by changing their diet and teaching them how to breathe. Their blood sugar drops tremendously. Qi Gong helps the elderly with back and leg pains. Qi Gong treatments help with headaches and high blood pressure.
                 </span>
               </details>
 
-              <details class="mb-4">
-                <summary class="font-semibold  bg-slate-300  py-4 px-4">
+              <details className="mb-4">
+                <summary className="font-semibold  bg-slate-300  py-4 px-4">
                 How is medical Qi Gong different from Acupuncture?
                 </summary>
 
-                <span class="px-4 py-2">
+                <span className="px-4 py-2">
                 Both forms of treatment use the same meridians and points in the body, but with Qi Gong I am putting pure Qi that I have gathered from nature into the point, instead of using a needle like in acupuncture. Acupuncture is appropriate and effective in certain illnesses, but Qi Gong can cure a broader spectrum of diseases.
                 </span>
               </details>
-              <details class="mb-4">
-                <summary class="font-semibold  bg-slate-300   py-4 px-4">
+              <details className="mb-4">
+                <summary className="font-semibold  bg-slate-300   py-4 px-4">
 
                 What makes the Qi Gong practices you teach, that work with the sun and the moon, so unique?
                 </summary>
 
-                <span class="px-4 py-2">
+                <span className="px-4 py-2">
                 The '9 PALACES', which is an exchange of signals with the SUN, and the '5 CENTERS', the MOON practice, are the two highest achievements in the field of Qi Gong. If one learns these, one can forget about all other Qi Gong practices one has ever learned, since these two encompass the rest and surpass all others.
                 </span>
               </details>
-              <details class="mb-4">
-                <summary class="font-semibold  bg-slate-300   py-4 px-4">
+              <details className="mb-4">
+                <summary className="font-semibold  bg-slate-300   py-4 px-4">
 
                 What are the benefits of learning to practice Qi Gong?
                 </summary>
 
-                <span class="px-4 py-2">
+                <span className="px-4 py-2">
                 Practicing Qi Gong helps you to achieve longevity. By detecting any sickness at a very early stage, before it is observable by Western science, you can then heal it faster. You learn to manage stress better, to achieve calm and peace. It gives you a new point of view, enhancing your communication with others, and it helps you in your career and studies. You learn to resolve your own suffering and your own sickness by yourself. Through consistent practice for over six months, these are some of the goals that can be reached:
 
                 It strengthens the central nervous system for a quick improvement of your memory.

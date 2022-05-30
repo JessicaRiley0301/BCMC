@@ -7,8 +7,8 @@ import { motion } from 'framer-motion';
 const HeaderHome = () => {
   return (
 
-    <div class="bg-bamboo h-full w-screen bg-cover bg-top bg-fixed">
-    <div class="pt-52 align-items-center pb-8 md:pb-24">
+    <div className="bg-bamboo h-full w-screen bg-cover bg-top bg-fixed">
+    <div className="pt-52 align-items-center pb-8 md:pb-24">
     <motion.div 
         initial="hidden" 
         animate="visible" 
@@ -24,11 +24,11 @@ const HeaderHome = () => {
           }
           
         }}>
-    <p class="font-playfair text-gray-600 text-center font-bold text-2xl sm:text-2xl">Welcome to</p>
-    <p class="font-playfair text-center font-extrabold text-5xl md:text-5xl p-6">Beijing Chinese Medical Center</p>
-    <p class="text-center text-gray-600 text-2xl md:text-3xl p-4">Acupuncture. Herbs. Chiropractic. Massage.</p>
+    <p className="font-playfair text-gray-600 text-center font-bold text-2xl sm:text-2xl">Welcome to</p>
+    <p className="font-playfair text-center font-extrabold text-5xl md:text-5xl p-6">Beijing Chinese Medical Center</p>
+    <p className="text-center text-gray-600 text-2xl md:text-3xl p-4">Acupuncture. Herbs. Chiropractic. Massage.</p>
     </motion.div>
-    <p class=" text-center p-4 space-x-2">
+    <p className=" text-center p-4 space-x-2">
     <a
         href="tel:310-458-1488"
         className="hover:bg-red-900 bg-red-600 text-white px-4 py-3 text-lg font-medium"
@@ -42,7 +42,7 @@ const HeaderHome = () => {
         Shop Books
         </a>
         </p>
-        <p class="text-center p-2">
+        <p className="text-center p-2">
         <a
         href="/blog"
         className="hover:bg-lime-700 bg-lime-500 text-white px-4 py-3 text-lg font-medium"
