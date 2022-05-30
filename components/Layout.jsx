@@ -1,5 +1,4 @@
 import React from 'react'
-import { Header } from './';
 import Navbar from './Navbar';
 import Footer from './Footer';
 

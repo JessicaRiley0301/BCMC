@@ -1,11 +1,7 @@
 export { default as PostCard } from './PostCard';
-export { default as Categories} from './Categories';
 export { default as PostWidget} from './PostWidget';
-export { default as Header} from './Header';
 export { default as Layout} from './Layout';
 export { default as Author} from './Author';
-export { default as Comments} from './Comments';
-export { default as CommentsForm} from './CommentsForm';
 export { default as PostDetail} from './PostDetail';
 export { default as FeaturedPostCard} from './FeaturedPostCard';
 export { default as Navbar} from './Navbar';
@@ -29,14 +25,11 @@ export { default as ServicesMain} from './ServicesMain';
 export { default as HeaderStore} from './HeaderStore';
 export { default as StoreMain} from './StoreMain';
 export { default as HeaderBlog} from './HeaderBlog';
-export { default as CategoriesNav} from './CategoriesNav';
 export { default as HeaderClasses} from './HeaderClasses';
 export { default as Class} from './Class';
 export { default as FAQ} from './FAQ';
 export { default as HeaderFAQ} from './HeaderFAQ';
 export { default as BlogDescription} from './BlogDescription';
-export { default as HeaderCategories} from './HeaderCategories';
-export { default as WeatherWidget} from './WeatherWidget';
 export { default as Weather} from './Weather';
-
+export { default as Loader} from './Loader';
 
