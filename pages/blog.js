@@ -2,7 +2,7 @@ import React from 'react'
 // import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
-import { PostCard, Categories, PostWidget } from '../components';
+import { PostCard, PostWidget } from '../components';
 import { getPosts } from '../services';
 import { useEffect } from 'react'
 import { FeaturedPosts } from '../sections'
@@ -27,7 +27,6 @@ const blog = ({ posts }) => {
         </div>
         <div className="lg:col-span-4 col-span-1 mb-8">
           <div className="lg:sticky relative top-8">
-            {/* <WeatherWidget/> */}
             <Weather/>
             <PostWidget/>
           </div>
